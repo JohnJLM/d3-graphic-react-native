@@ -3,16 +3,19 @@
   "version": "1.0.0",
   "main": "expo/AppEntry.js",
   "scripts": {
-    "start": "expo start",
+    "start": "npx expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web"
   },
   "dependencies": {
+    "d3": "^7.9.0",
+    "d3-graphic": "file:../d3-graphic-1.0.0.tgz",
     "expo": "~51.0.21",
     "expo-status-bar": "~1.12.1",
-    "react": "18.2.0",
-    "react-native": "0.74.3"
+    "react": "^18.2.0",
+    "react-native": "^0.74.3",
+    "react-native-svg": "^15.4.0"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"
