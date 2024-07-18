@@ -70,6 +70,7 @@ const Tab = createMaterialTopTabNavigator();
 const TabNavigator = ({ tabs, initialRouterName }) => {
   return (
     <Tab.Navigator
+      style={{ marginTop: 25 }}
       initialRouteName={initialRouterName}
       screenOptions={{
         swipeEnabled: true,
@@ -210,12 +211,13 @@ const styles = StyleSheet.create({
     backgroundColor: "#ececec",
     alignItems: "center",
     paddingTop: 30,
-    gap: 30,
-    paddingHorizontal: 20,
+    gap: 20,
+    paddingHorizontal: 15,
     marginBottom: 75,
+    top: -10,
   },
   title: {
-    fontSize: 16,
+    fontSize: 15,
     fontWeight: "bold",
   },
   containerCard: {
